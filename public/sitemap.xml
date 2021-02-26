@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://deploydatascience.com/</loc>
+    <lastmod>2021-02-26T11:39:56+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://deploydatascience.com/tags/first/</loc>
+    <lastmod>2021-02-26T11:39:56+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://deploydatascience.com/posts/my-first-post/</loc>
+    <lastmod>2021-02-26T11:39:56+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://deploydatascience.com/posts/</loc>
+    <lastmod>2021-02-26T11:39:56+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://deploydatascience.com/tags/</loc>
+    <lastmod>2021-02-26T11:39:56+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://deploydatascience.com/about/</loc>
+  </url>
+  
+  <url>
+    <loc>http://deploydatascience.com/tags/list/</loc>
+  </url>
+  
+  <url>
+    <loc>http://deploydatascience.com/resources/</loc>
+  </url>
+  
+  <url>
+    <loc>http://deploydatascience.com/tags/resources/</loc>
+  </url>
+  
+  <url>
+    <loc>http://deploydatascience.com/tags/</loc>
+  </url>
+  
+</urlset>

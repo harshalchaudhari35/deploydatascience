@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Deploy Data Science</title>
+    <link>http://deploydatascience.com/posts/</link>
+    <description>Recent content in Posts on Deploy Data Science</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Copyright notice</copyright>
+    <lastBuildDate>Fri, 26 Feb 2021 11:39:56 +0000</lastBuildDate><atom:link href="http://deploydatascience.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>http://deploydatascience.com/posts/my-first-post/</link>
+      <pubDate>Fri, 26 Feb 2021 11:39:56 +0000</pubDate>
+      
+      <guid>http://deploydatascience.com/posts/my-first-post/</guid>
+      <description>This is my first post  List of Lang  Python Java C++    </description>
+    </item>
+    
+  </channel>
+</rss>

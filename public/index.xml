@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Deploy Data Science</title>
+    <link>http://deploydatascience.com/</link>
+    <description>Recent content on Deploy Data Science</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Copyright notice</copyright>
+    <lastBuildDate>Fri, 26 Feb 2021 11:39:56 +0000</lastBuildDate><atom:link href="http://deploydatascience.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>http://deploydatascience.com/posts/my-first-post/</link>
+      <pubDate>Fri, 26 Feb 2021 11:39:56 +0000</pubDate>
+      
+      <guid>http://deploydatascience.com/posts/my-first-post/</guid>
+      <description>This is my first post  List of Lang  Python Java C++    </description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://deploydatascience.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://deploydatascience.com/about/</guid>
+      <description>Hi there, Welcome! to Deploy Data Science, a blog for all things data science and ML ops.
+Created by Harshal, for ML and data science enthusiasts who would like to go beyond the prototype solutions and learn how to deploy data science from scratch into an end-to-end solutions.</description>
+    </item>
+    
+    <item>
+      <title>Resources</title>
+      <link>http://deploydatascience.com/resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://deploydatascience.com/resources/</guid>
+      <description>Awesome List of Data Science Resources  Data Engineering Machine Learning  </description>
+    </item>
+    
+    <item>
+      <title>Tags</title>
+      <link>http://deploydatascience.com/tags/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://deploydatascience.com/tags/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
