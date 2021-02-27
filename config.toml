@@ -1,4 +1,4 @@
-baseURL = "http://deploydatascience.com/"
+baseURL = "http://www.deploydatascience.com/"
 languageCode = "en-us"
 title = "Deploy Data Science"
 theme = "hugo-ink"
