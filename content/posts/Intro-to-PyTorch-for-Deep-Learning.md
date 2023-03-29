@@ -1,5 +1,5 @@
 ---
-title: "My First Go At PyTorch Deep Learning"
+title: "Intro to PyTorch for Deep Learning"
 date: 2021-05-27T11:39:56Z
 type: posts
 draft: False 

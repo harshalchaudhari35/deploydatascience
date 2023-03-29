@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Deploy Data Science</title>
-    <link>https://www.deploydatascience.com/posts/</link>
-    <description>Recent content in Posts on Deploy Data Science</description>
+    <title>Misc on Deploy Data Science</title>
+    <link>https://www.deploydatascience.com/tags/misc/</link>
+    <description>Recent content in Misc on Deploy Data Science</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Thu, 27 May 2021 11:39:56 +0000</lastBuildDate><atom:link href="https://www.deploydatascience.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 May 2021 11:39:56 +0000</lastBuildDate><atom:link href="https://www.deploydatascience.com/tags/misc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Intro to PyTorch for Deep Learning</title>
       <link>https://www.deploydatascience.com/posts/intro-to-pytorch-for-deep-learning/</link>
@@ -18,16 +18,6 @@
 Regression Problem Example Boston Housing Dataset I have used the Boston housing dataset as it is one of the basic and beginner friendly dataset on Kaggle
 Python Implementation The implementation creates a simple neural network using pytorch and compares with a baseline linear regression model.
 Learnings Some key lessons learnt are to start with simple datasets and compare with baseline model to see the difference of using a non linear type model.</description>
-    </item>
-    
-    <item>
-      <title>An Open Source Customer Data Integration Solution</title>
-      <link>https://www.deploydatascience.com/posts/data-integration-solution/</link>
-      <pubDate>Wed, 24 Mar 2021 11:39:56 +0000</pubDate>
-      
-      <guid>https://www.deploydatascience.com/posts/data-integration-solution/</guid>
-      <description>Customer Data Integration The first step even before you can begin to apply data science to a problem consists of loading customer data into your system. Although, trivial when you are doing a one off batch load/read from files or databases. It can quickly become a non-trivial task when data updates often, leading to many data refreshes.
-To resolve this problem, data science systems use what are known as data loader/integration platforms.</description>
     </item>
     
   </channel>

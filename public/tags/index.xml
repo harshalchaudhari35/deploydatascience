@@ -2,36 +2,81 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Deploy Data Science</title>
-    <link>http://deploydatascience.com/tags/</link>
+    <link>https://www.deploydatascience.com/tags/</link>
     <description>Recent content in Tags on Deploy Data Science</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Fri, 26 Feb 2021 11:39:56 +0000</lastBuildDate><atom:link href="http://deploydatascience.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 May 2021 11:39:56 +0000</lastBuildDate><atom:link href="https://www.deploydatascience.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>First</title>
-      <link>http://deploydatascience.com/tags/first/</link>
-      <pubDate>Fri, 26 Feb 2021 11:39:56 +0000</pubDate>
+      <title>Deep Learning</title>
+      <link>https://www.deploydatascience.com/tags/deep-learning/</link>
+      <pubDate>Thu, 27 May 2021 11:39:56 +0000</pubDate>
       
-      <guid>http://deploydatascience.com/tags/first/</guid>
+      <guid>https://www.deploydatascience.com/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Misc</title>
+      <link>https://www.deploydatascience.com/tags/misc/</link>
+      <pubDate>Thu, 27 May 2021 11:39:56 +0000</pubDate>
+      
+      <guid>https://www.deploydatascience.com/tags/misc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pytorch</title>
+      <link>https://www.deploydatascience.com/tags/pytorch/</link>
+      <pubDate>Thu, 27 May 2021 11:39:56 +0000</pubDate>
+      
+      <guid>https://www.deploydatascience.com/tags/pytorch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data</title>
+      <link>https://www.deploydatascience.com/tags/data/</link>
+      <pubDate>Wed, 24 Mar 2021 11:39:56 +0000</pubDate>
+      
+      <guid>https://www.deploydatascience.com/tags/data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Integration</title>
+      <link>https://www.deploydatascience.com/tags/integration/</link>
+      <pubDate>Wed, 24 Mar 2021 11:39:56 +0000</pubDate>
+      
+      <guid>https://www.deploydatascience.com/tags/integration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Opensource</title>
+      <link>https://www.deploydatascience.com/tags/opensource/</link>
+      <pubDate>Wed, 24 Mar 2021 11:39:56 +0000</pubDate>
+      
+      <guid>https://www.deploydatascience.com/tags/opensource/</guid>
       <description></description>
     </item>
     
     <item>
       <title>list</title>
-      <link>http://deploydatascience.com/tags/list/</link>
+      <link>https://www.deploydatascience.com/tags/list/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://deploydatascience.com/tags/list/</guid>
+      <guid>https://www.deploydatascience.com/tags/list/</guid>
       <description></description>
     </item>
     
     <item>
       <title>resources</title>
-      <link>http://deploydatascience.com/tags/resources/</link>
+      <link>https://www.deploydatascience.com/tags/resources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://deploydatascience.com/tags/resources/</guid>
+      <guid>https://www.deploydatascience.com/tags/resources/</guid>
       <description></description>
     </item>
     

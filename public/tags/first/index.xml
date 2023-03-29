@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>First on Deploy Data Science</title>
-    <link>http://deploydatascience.com/tags/first/</link>
+    <link>https://www.deploydatascience.com/tags/first/</link>
     <description>Recent content in First on Deploy Data Science</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Fri, 26 Feb 2021 11:39:56 +0000</lastBuildDate><atom:link href="http://deploydatascience.com/tags/first/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Feb 2021 11:39:56 +0000</lastBuildDate><atom:link href="https://www.deploydatascience.com/tags/first/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
-      <link>http://deploydatascience.com/posts/my-first-post/</link>
+      <link>https://www.deploydatascience.com/posts/my-first-post/</link>
       <pubDate>Fri, 26 Feb 2021 11:39:56 +0000</pubDate>
       
-      <guid>http://deploydatascience.com/posts/my-first-post/</guid>
+      <guid>https://www.deploydatascience.com/posts/my-first-post/</guid>
       <description>This is my first post  List of Lang  Python Java C++    </description>
     </item>
     
