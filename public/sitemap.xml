@@ -2,19 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.deploydatascience.com/tags/deep-learning/</loc>
-    <lastmod>2021-05-27T11:39:56+00:00</lastmod>
-  </url><url>
     <loc>https://www.deploydatascience.com/</loc>
+    <lastmod>2023-03-30T14:32:36+01:00</lastmod>
+  </url><url>
+    <loc>https://www.deploydatascience.com/posts/</loc>
+    <lastmod>2023-03-30T14:32:36+01:00</lastmod>
+  </url><url>
+    <loc>https://www.deploydatascience.com/posts/serverless-ml-made-easy/</loc>
+    <lastmod>2023-03-30T14:32:36+01:00</lastmod>
+  </url><url>
+    <loc>https://www.deploydatascience.com/posts/simplifying-data-web-api/</loc>
+    <lastmod>2023-03-15T00:22:37+01:00</lastmod>
+  </url><url>
+    <loc>https://www.deploydatascience.com/tags/deep-learning/</loc>
     <lastmod>2021-05-27T11:39:56+00:00</lastmod>
   </url><url>
     <loc>https://www.deploydatascience.com/posts/intro-to-pytorch-for-deep-learning/</loc>
     <lastmod>2021-05-27T11:39:56+00:00</lastmod>
   </url><url>
     <loc>https://www.deploydatascience.com/tags/misc/</loc>
-    <lastmod>2021-05-27T11:39:56+00:00</lastmod>
-  </url><url>
-    <loc>https://www.deploydatascience.com/posts/</loc>
     <lastmod>2021-05-27T11:39:56+00:00</lastmod>
   </url><url>
     <loc>https://www.deploydatascience.com/tags/pytorch/</loc>
