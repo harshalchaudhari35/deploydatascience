@@ -2,6 +2,7 @@
 title: "Serverless ML Made Easy"
 date: 2023-03-30T14:32:36+01:00
 draft: False
+description: Banana ML A Revolutionary Tool for Cheap and Faster ML Inference
 ---
 
 

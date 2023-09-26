@@ -4,10 +4,11 @@ date: 2021-03-24T11:39:56Z
 type: posts
 draft: False 
 tags: [Data, Integration, Opensource]
+description: The first step before you can apply data science to a problem, consists of loading customer data into your system.
 ---
 ## Customer Data Integration
 
-The first step even before you can begin to apply data science to a problem consists of loading customer data into your system.
+The first step even before you can begin to apply data science to a problem, consists of loading customer data into your system.
 Although, trivial when you are doing a one off batch load/read from files or databases. It can quickly become a non-trivial task when data updates often, 
 leading to many data refreshes.
 

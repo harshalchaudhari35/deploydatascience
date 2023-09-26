@@ -2,6 +2,7 @@
 title: "Simplifying Web APIs For Data Applications"
 date: 2023-03-15T00:22:37+01:00
 draft: False
+description: Introducing a powerful tool for data science and software engineering that can help you build modern data science applications and APIs faster 
 ---
 
 

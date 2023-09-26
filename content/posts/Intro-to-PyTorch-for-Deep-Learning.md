@@ -4,6 +4,7 @@ date: 2021-05-27T11:39:56Z
 type: posts
 draft: False 
 tags: [Misc, Pytorch, Deep Learning]
+description: Pytorch is an open source machine learning framework that accelerates the path from research prototyping to production deployment.
 ---
 ## PyTorch
 
