@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Thu, 30 Mar 2023 14:32:36 +0100</lastBuildDate><atom:link href="https://www.deploydatascience.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Sep 2023 09:41:51 +0100</lastBuildDate><atom:link href="https://www.deploydatascience.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Postgres Bulk Data Inserts</title>
+      <link>https://www.deploydatascience.com/posts/postgres-bulk-data-inserts/</link>
+      <pubDate>Tue, 26 Sep 2023 09:41:51 +0100</pubDate>
+      
+      <guid>https://www.deploydatascience.com/posts/postgres-bulk-data-inserts/</guid>
+      <description>A Definitive Complied Guide for Bulk Inserts to Postgres Taken from a stackoverflow answer as below1 (Note that this answer is about bulk-loading data into an existing DB or to create a new one. If you&amp;rsquo;re interested DB restore performance with pg_restore or psql execution of pg_dump output, much of this doesn&amp;rsquo;t apply since pg_dump and pg_restore already do things like creating triggers and indexes after it finishes a schema+data restore).</description>
+    </item>
+    
     <item>
       <title>Serverless ML Made Easy</title>
       <link>https://www.deploydatascience.com/posts/serverless-ml-made-easy/</link>

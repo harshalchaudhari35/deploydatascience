@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" type="image/jpg" href="https://image.freepik.com/free-vector/big-data-center-server-room-rack-engineering-process-teamwork-computer-technology-cloud-storage_39422-1032.jpg"/>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Postgres Bulk Data Inserts - Deploy Data Science</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta itemprop="name" content="Postgres Bulk Data Inserts">
+<meta itemprop="description" content="A Definitive Complied Guide for Bulk Inserts to Postgres, complied overtime from my own experiences and taken from various sources"><meta itemprop="datePublished" content="2023-09-26T09:41:51+01:00" />
+<meta itemprop="dateModified" content="2023-09-26T09:41:51+01:00" />
+<meta itemprop="wordCount" content="836">
+<meta itemprop="keywords" content="databases,Postgres," /><meta property="og:title" content="Postgres Bulk Data Inserts" />
+<meta property="og:description" content="A Definitive Complied Guide for Bulk Inserts to Postgres, complied overtime from my own experiences and taken from various sources" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.deploydatascience.com/posts/postgres-bulk-data-inserts/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-09-26T09:41:51+01:00" />
+<meta property="article:modified_time" content="2023-09-26T09:41:51+01:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Postgres Bulk Data Inserts"/>
+<meta name="twitter:description" content="A Definitive Complied Guide for Bulk Inserts to Postgres, complied overtime from my own experiences and taken from various sources"/>
+<link href='https://fonts.googleapis.com/css?family=Playfair+Display:700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" media="screen" href="https://www.deploydatascience.com/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://www.deploydatascience.com/css/main.css" />
+		<link rel="stylesheet" type="text/css" href="https://www.deploydatascience.com/css/custom.css" />
+	
+
+        <link id="dark-scheme" rel="stylesheet" type="text/css" href="https://www.deploydatascience.com/css/dark.css" />
+                <link id="dark-scheme" rel="stylesheet" type="text/css" href="https://www.deploydatascience.com/css/custom-dark.css" />
+
+	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+		<script src="https://www.deploydatascience.com/js/main.js"></script><script src="https://www.deploydatascience.com/js/custom.js"></script><script src="https://www.deploydatascience.com/js/custom1.js"></script>
+</head>
+
+<body>
+	<div class="container wrapper">
+		<div class="header">
+	
+		<div class="avatar">
+			<a href="https://www.deploydatascience.com/">
+				<img src="https://image.freepik.com/free-vector/big-data-center-server-room-rack-engineering-process-teamwork-computer-technology-cloud-storage_39422-1032.jpg" alt="Deploy Data Science" />
+			</a>
+		</div>
+	
+	<h1 class="site-title"><a href="https://www.deploydatascience.com/">Deploy Data Science</a></h1>
+	<div class="site-description"><p>All things Data Science and ML Ops</p><nav class="nav social">
+			<ul class="flat"><li><a href="https://github.com/harshalchaudhari35" title="Github"><i data-feather="github"></i></a></li><li><a href="/index.xml" title="RSS"><i data-feather="rss"></i></a></li><li><a href="#" class="scheme-toggle" id="scheme-toggle"></a></li></ul>
+		</nav>
+	</div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/">Home</a>
+			</li>
+			
+			<li>
+				<a href="/posts">All posts</a>
+			</li>
+			
+			<li>
+				<a href="/about">About</a>
+			</li>
+			
+			<li>
+				<a href="/tags">Tags</a>
+			</li>
+			
+			<li>
+				<a href="/resources">Resources</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post">
+			<div class="post-header">
+				
+					<div class="meta">
+						<div class="date">
+							<span class="day">26</span>
+							<span class="rest">Sep 2023</span>
+						</div>
+					</div>
+				
+				<div class="matter">
+					<h1 class="title">Postgres Bulk Data Inserts</h1>
+				</div>
+			</div>
+					
+			<div class="markdown">
+				<h3 id="a-definitive-complied-guide-for-bulk-inserts-to-postgres">A Definitive Complied Guide for Bulk Inserts to Postgres</h3>
+<h4 id="taken-from-a-stackoverflow-answer-as-below1">Taken from a stackoverflow answer as below<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h4>
+<p>(Note that this answer is about bulk-loading data into an existing DB or to create a new one. If you&rsquo;re interested DB restore performance with pg_restore or psql execution of pg_dump output, much of this doesn&rsquo;t apply since pg_dump and pg_restore already do things like creating triggers and indexes after it finishes a schema+data restore).</p>
+<p>There&rsquo;s lots to be done. The ideal solution would be to import into an UNLOGGED table without indexes, then change it to logged and add the indexes. Unfortunately in PostgreSQL 9.4 there&rsquo;s no support for changing tables from UNLOGGED to logged. 9.5 adds ALTER TABLE &hellip; SET LOGGED to permit you to do this.</p>
+<p>If you can take your database offline for the bulk import, use pg_bulkload.</p>
+<p>Otherwise:</p>
+<ul>
+<li>
+<p>Disable any triggers on the table</p>
+</li>
+<li>
+<p>Drop indexes before starting the import, re-create them afterwards. (It takes much less time to build an index in one pass than it does to add the same data to it progressively, and the resulting index is much more compact).</p>
+</li>
+<li>
+<p>If doing the import within a single transaction, it&rsquo;s safe to drop foreign key constraints, do the import, and re-create the constraints before committing. Do not do this if the import is split across multiple transactions as you might introduce invalid data.</p>
+</li>
+<li>
+<p>If possible, use COPY instead of INSERTs</p>
+</li>
+<li>
+<p>If you can&rsquo;t use COPY consider using multi-valued INSERTs if practical. You seem to be doing this already. Don&rsquo;t try to list too many values in a single VALUES though; those values have to fit in memory a couple of times over, so keep it to a few hundred per statement.</p>
+</li>
+<li>
+<p>Batch your inserts into explicit transactions, doing hundreds of thousands or millions of inserts per transaction. There&rsquo;s no practical limit AFAIK, but batching will let you recover from an error by marking the start of each batch in your input data. Again, you seem to be doing this already.</p>
+</li>
+<li>
+<p>Use synchronous_commit=off and a huge commit_delay to reduce fsync() costs. This won&rsquo;t help much if you&rsquo;ve batched your work into big transactions, though.</p>
+</li>
+<li>
+<p>INSERT or COPY in parallel from several connections. How many depends on your hardware&rsquo;s disk subsystem; as a rule of thumb, you want one connection per physical hard drive if using direct attached storage.</p>
+</li>
+<li>
+<p>Set a high max_wal_size value (checkpoint_segments in older versions) and enable log_checkpoints. Look at the PostgreSQL logs and make sure it&rsquo;s not complaining about checkpoints occurring too frequently.</p>
+</li>
+<li>
+<p>If and only if you don&rsquo;t mind losing your entire PostgreSQL cluster (your database and any others on the same cluster) to catastrophic corruption if the system crashes during the import, you can stop Pg, set fsync=off, start Pg, do your import, then (vitally) stop Pg and set fsync=on again. See WAL configuration. Do not do this if there is already any data you care about in any database on your PostgreSQL install. If you set fsync=off you can also set full_page_writes=off; again, just remember to turn it back on after your import to prevent database corruption and data loss. See non-durable settings in the Pg manual.</p>
+</li>
+</ul>
+<p>You should also look at tuning your system:</p>
+<ul>
+<li>
+<p>Use good quality SSDs for storage as much as possible. Good SSDs with reliable, power-protected write-back caches make commit rates incredibly faster. They&rsquo;re less beneficial when you follow the advice above - which reduces disk flushes / number of fsync()s - but can still be a big help. Do not use cheap SSDs without proper power-failure protection unless you don&rsquo;t care about keeping your data.</p>
+</li>
+<li>
+<p>If you&rsquo;re using RAID 5 or RAID 6 for direct attached storage, stop now. Back your data up, restructure your RAID array to RAID 10, and try again. RAID 5/6 are hopeless for bulk write performance - though a good RAID controller with a big cache can help.</p>
+</li>
+<li>
+<p>If you have the option of using a hardware RAID controller with a big battery-backed write-back cache this can really improve write performance for workloads with lots of commits. It doesn&rsquo;t help as much if you&rsquo;re using async commit with a commit_delay or if you&rsquo;re doing fewer big transactions during bulk loading.</p>
+</li>
+<li>
+<p>If possible, store WAL (pg_wal, or pg_xlog in old versions) on a separate disk / disk array. There&rsquo;s little point in using a separate filesystem on the same disk. People often choose to use a RAID1 pair for WAL. Again, this has more effect on systems with high commit rates, and it has little effect if you&rsquo;re using an unlogged table as the data load target.</p>
+</li>
+</ul>
+<p>You may also be interested in Optimise PostgreSQL for fast testing.</p>
+<hr>
+<h4 id="when-using-parquet-source-files">When using parquet source files</h4>
+<ul>
+<li>Use <code>COPY table TO ... WITH BINARY</code> which is according to the documentation &ldquo;is somewhat faster than the text and CSV formats.&rdquo; Only do this if you have millions of rows to insert, and if you are comfortable with binary data.</li>
+<li>You can convert Parquet files to Binary using <a href="https://github.com/adriangb/pgpq">pgpq</a></li>
+</ul>
+<h3 id="references">References</h3>
+<ul>
+<li><a href="https://www.postgresql.org/docs/current/populate.html">https://www.postgresql.org/docs/current/populate.html</a></li>
+<li><a href="https://www.depesz.com/2007/07/05/how-to-insert-data-to-database-as-fast-as-possible/">https://www.depesz.com/2007/07/05/how-to-insert-data-to-database-as-fast-as-possible/</a></li>
+<li><a href="https://github.com/adriangb/pgpq">https://github.com/adriangb/pgpq</a></li>
+</ul>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://stackoverflow.com/questions/12206600/how-to-speed-up-insertion-performance-in-postgresql">https://stackoverflow.com/questions/12206600/how-to-speed-up-insertion-performance-in-postgresql</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+			</div>
+
+			<div class="tags">
+				
+					
+						<ul class="flat">
+							
+							<li><a href="/tags/databases">databases</a></li>
+							
+							<li><a href="/tags/postgres">Postgres</a></li>
+							
+						</ul>
+					
+				
+			</div></div>
+	</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+		<div>2023  © Copyright notice |  <a href="https://github.com/knadh/hugo-ink">Ink</a> theme on <a href="https://gohugo.io">Hugo</a></div>
+	</nav>
+</div>
+
+<script>feather.replace()</script>
+</body>
+</html>
