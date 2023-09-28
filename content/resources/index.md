@@ -38,4 +38,7 @@ tags: [resources, list]
 
  - **APIs**
 
-   - [Hasura](https://hasura.io/) - Hasura gives you instant GraphQL & REST APIs on new & existing data sources. 
+   - [Hasura](https://hasura.io/) - Hasura gives you instant GraphQL & REST APIs on new & existing data sources.
+
+ - **Security** 
+   - [honeybadger security](https://www.honeybadger.io/security/): One of the best and clean company security policy document
