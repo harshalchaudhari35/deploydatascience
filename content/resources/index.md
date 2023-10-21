@@ -42,3 +42,7 @@ tags: [resources, list]
 
  - **Security** 
    - [honeybadger security](https://www.honeybadger.io/security/): One of the best and clean company security policy document
+
+
+## Personal Favourite Reading Material
+ - [The 5 Levels of Readable Code](https://carlosschults.net/en/fivel-levels-readable-code/) (coding)
