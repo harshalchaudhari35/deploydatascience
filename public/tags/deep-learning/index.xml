@@ -2,23 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Deep Learning on Deploy Data Science</title>
-    <link>https://www.deploydatascience.com/tags/deep-learning/</link>
+    <link>http://localhost:1313/tags/deep-learning/</link>
     <description>Recent content in Deep Learning on Deploy Data Science</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Thu, 27 May 2021 11:39:56 +0000</lastBuildDate><atom:link href="https://www.deploydatascience.com/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 May 2021 11:39:56 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Intro to PyTorch for Deep Learning</title>
-      <link>https://www.deploydatascience.com/posts/intro-to-pytorch-for-deep-learning/</link>
+      <link>http://localhost:1313/posts/intro-to-pytorch-for-deep-learning/</link>
       <pubDate>Thu, 27 May 2021 11:39:56 +0000</pubDate>
-      
-      <guid>https://www.deploydatascience.com/posts/intro-to-pytorch-for-deep-learning/</guid>
-      <description>PyTorch Pytorch is an open source machine learning framework that accelerates the path from research prototyping to production deployment.
-Regression Problem Example Boston Housing Dataset I have used the Boston housing dataset as it is one of the basic and beginner friendly dataset on Kaggle
-Python Implementation The implementation creates a simple neural network using pytorch and compares with a baseline linear regression model.
-Learnings Some key lessons learnt are to start with simple datasets and compare with baseline model to see the difference of using a non linear type model.</description>
+      <guid>http://localhost:1313/posts/intro-to-pytorch-for-deep-learning/</guid>
+      <description>PyTorch Pytorch is an open source machine learning framework that accelerates the path from research prototyping to production deployment.&#xA;Regression Problem Example Boston Housing Dataset I have used the Boston housing dataset as it is one of the basic and beginner friendly dataset on Kaggle&#xA;Python Implementation The implementation creates a simple neural network using pytorch and compares with a baseline linear regression model.&#xA;Learnings Some key lessons learnt are to start with simple datasets and compare with baseline model to see the difference of using a non linear type model.</description>
     </item>
-    
   </channel>
 </rss>

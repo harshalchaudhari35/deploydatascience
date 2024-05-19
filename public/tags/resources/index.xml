@@ -1,27 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>resources on Deploy Data Science</title>
-    <link>https://www.deploydatascience.com/tags/resources/</link>
-    <description>Recent content in resources on Deploy Data Science</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Resources on Deploy Data Science</title>
+    <link>http://localhost:1313/tags/resources/</link>
+    <description>Recent content in Resources on Deploy Data Science</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>© Copyright notice</copyright><atom:link href="https://www.deploydatascience.com/tags/resources/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© Copyright notice</copyright>
+    <atom:link href="http://localhost:1313/tags/resources/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Resources</title>
-      <link>https://www.deploydatascience.com/resources/</link>
+      <link>http://localhost:1313/resources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.deploydatascience.com/resources/</guid>
-      <description>Awesome List of Data Science Resources Data Engineering
-Playlist of Awesome Data Engineering Videos Machine Learning
-API Flask
-https://github.com/exleym/Flask-Filter Filtering library directly on top of flask Similar libs: https://github.com/juliotrigo/sqlalchemy-filters https://github.com/gorilla-co/odata-query https://github.com/rochacbruno/dynaconf/ Configuration management for Flask in Production environments DevOps Nginx
-https://github.com/digitalocean/nginxconfig.io NGINX config generator on steroids. Documentation
-docusaurus https://docusaurus.io/ APIs
-Hasura - Hasura gives you instant GraphQL &amp;amp; REST APIs on new &amp;amp; existing data sources. Security
-honeybadger security: One of the best and clean company security policy document Personal Favourite Reading Material The 5 Levels of Readable Code (coding) </description>
+      <guid>http://localhost:1313/resources/</guid>
+      <description>Awesome List of Data Science Resources Data Engineering&#xA;Playlist of Awesome Data Engineering Videos Machine Learning&#xA;API Flask&#xA;https://github.com/exleym/Flask-Filter Filtering library directly on top of flask Similar libs: https://github.com/juliotrigo/sqlalchemy-filters https://github.com/gorilla-co/odata-query https://github.com/rochacbruno/dynaconf/ Configuration management for Flask in Production environments DevOps Nginx&#xA;https://github.com/digitalocean/nginxconfig.io NGINX config generator on steroids. Documentation&#xA;docusaurus https://docusaurus.io/ APIs&#xA;Hasura - Hasura gives you instant GraphQL &amp;amp; REST APIs on new &amp;amp; existing data sources. Security&#xA;honeybadger security: One of the best and clean company security policy document Personal Favourite Reading Material The 5 Levels of Readable Code (coding) How does non blocking io work under the hood A side-by-side comparison of Apache Spark and Apache Flink for common streaming use cases paxos vs quorum consistency consistent hashing </description>
     </item>
-    
   </channel>
 </rss>

@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>databases on Deploy Data Science</title>
-    <link>https://www.deploydatascience.com/tags/databases/</link>
-    <description>Recent content in databases on Deploy Data Science</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Databases on Deploy Data Science</title>
+    <link>http://localhost:1313/tags/databases/</link>
+    <description>Recent content in Databases on Deploy Data Science</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Tue, 26 Sep 2023 09:41:51 +0100</lastBuildDate><atom:link href="https://www.deploydatascience.com/tags/databases/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Sep 2023 09:41:51 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/databases/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Postgres Bulk Data Inserts</title>
-      <link>https://www.deploydatascience.com/posts/postgres-bulk-data-inserts/</link>
+      <link>http://localhost:1313/posts/postgres-bulk-data-inserts/</link>
       <pubDate>Tue, 26 Sep 2023 09:41:51 +0100</pubDate>
-      
-      <guid>https://www.deploydatascience.com/posts/postgres-bulk-data-inserts/</guid>
+      <guid>http://localhost:1313/posts/postgres-bulk-data-inserts/</guid>
       <description>A Definitive Complied Guide for Bulk Inserts to Postgres Taken from a stackoverflow answer as below1 (Note that this answer is about bulk-loading data into an existing DB or to create a new one. If you&amp;rsquo;re interested DB restore performance with pg_restore or psql execution of pg_dump output, much of this doesn&amp;rsquo;t apply since pg_dump and pg_restore already do things like creating triggers and indexes after it finishes a schema+data restore).</description>
     </item>
-    
   </channel>
 </rss>

@@ -2,99 +2,75 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Deploy Data Science</title>
-    <link>https://www.deploydatascience.com/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Deploy Data Science</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Tue, 26 Sep 2023 09:41:51 +0100</lastBuildDate><atom:link href="https://www.deploydatascience.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Sep 2023 09:41:51 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Postgres Bulk Data Inserts</title>
-      <link>https://www.deploydatascience.com/posts/postgres-bulk-data-inserts/</link>
+      <link>http://localhost:1313/posts/postgres-bulk-data-inserts/</link>
       <pubDate>Tue, 26 Sep 2023 09:41:51 +0100</pubDate>
-      
-      <guid>https://www.deploydatascience.com/posts/postgres-bulk-data-inserts/</guid>
+      <guid>http://localhost:1313/posts/postgres-bulk-data-inserts/</guid>
       <description>A Definitive Complied Guide for Bulk Inserts to Postgres Taken from a stackoverflow answer as below1 (Note that this answer is about bulk-loading data into an existing DB or to create a new one. If you&amp;rsquo;re interested DB restore performance with pg_restore or psql execution of pg_dump output, much of this doesn&amp;rsquo;t apply since pg_dump and pg_restore already do things like creating triggers and indexes after it finishes a schema+data restore).</description>
     </item>
-    
     <item>
       <title>Serverless ML Made Easy</title>
-      <link>https://www.deploydatascience.com/posts/serverless-ml-made-easy/</link>
+      <link>http://localhost:1313/posts/serverless-ml-made-easy/</link>
       <pubDate>Thu, 30 Mar 2023 14:32:36 +0100</pubDate>
-      
-      <guid>https://www.deploydatascience.com/posts/serverless-ml-made-easy/</guid>
-      <description>Intro Banana ML : A Revolutionary Tool for Cheap and Faster ML Inference
-Data science and machine learning are quickly becoming essential tools for businesses across the world. The increasing demand for data-driven solutions and applications has created a need for tools that can help developers build cheaper and faster.
-What is Banana ML? Enter Banana ML: a powerful, easy-to-use platform for building modern data science applications faster.
-Banana ML is an open source machine learning platform built for developers.</description>
+      <guid>http://localhost:1313/posts/serverless-ml-made-easy/</guid>
+      <description>Intro Banana ML : A Revolutionary Tool for Cheap and Faster ML Inference&#xA;Data science and machine learning are quickly becoming essential tools for businesses across the world. The increasing demand for data-driven solutions and applications has created a need for tools that can help developers build cheaper and faster.&#xA;What is Banana ML? Enter Banana ML: a powerful, easy-to-use platform for building modern data science applications faster.&#xA;Banana ML is an open source machine learning platform built for developers.</description>
     </item>
-    
     <item>
       <title>Simplifying Web APIs For Data Applications</title>
-      <link>https://www.deploydatascience.com/posts/simplifying-data-web-api/</link>
+      <link>http://localhost:1313/posts/simplifying-data-web-api/</link>
       <pubDate>Wed, 15 Mar 2023 00:22:37 +0100</pubDate>
-      
-      <guid>https://www.deploydatascience.com/posts/simplifying-data-web-api/</guid>
-      <description>Introduction Hasura.io is a powerful tool for data science and software engineering that can help you build modern data science applications and APIs faster than ever before. With Hasura&amp;rsquo;s intuitive interface and powerful features, you can develop blazing fast GraphQL and REST APIs with ease.
-What is Hasura.io? Hasura.io is a cloud-based platform that makes it easy to develop, deploy and manage secure, modern data science applications and APIs. It provides a unified platform for developing, deploying and managing data-driven applications and APIs in a secure, efficient, and cost-effective manner.</description>
+      <guid>http://localhost:1313/posts/simplifying-data-web-api/</guid>
+      <description>Introduction Hasura.io is a powerful tool for data science and software engineering that can help you build modern data science applications and APIs faster than ever before. With Hasura&amp;rsquo;s intuitive interface and powerful features, you can develop blazing fast GraphQL and REST APIs with ease.&#xA;What is Hasura.io? Hasura.io is a cloud-based platform that makes it easy to develop, deploy and manage secure, modern data science applications and APIs. It provides a unified platform for developing, deploying and managing data-driven applications and APIs in a secure, efficient, and cost-effective manner.</description>
     </item>
-    
     <item>
       <title>Intro to PyTorch for Deep Learning</title>
-      <link>https://www.deploydatascience.com/posts/intro-to-pytorch-for-deep-learning/</link>
+      <link>http://localhost:1313/posts/intro-to-pytorch-for-deep-learning/</link>
       <pubDate>Thu, 27 May 2021 11:39:56 +0000</pubDate>
-      
-      <guid>https://www.deploydatascience.com/posts/intro-to-pytorch-for-deep-learning/</guid>
-      <description>PyTorch Pytorch is an open source machine learning framework that accelerates the path from research prototyping to production deployment.
-Regression Problem Example Boston Housing Dataset I have used the Boston housing dataset as it is one of the basic and beginner friendly dataset on Kaggle
-Python Implementation The implementation creates a simple neural network using pytorch and compares with a baseline linear regression model.
-Learnings Some key lessons learnt are to start with simple datasets and compare with baseline model to see the difference of using a non linear type model.</description>
+      <guid>http://localhost:1313/posts/intro-to-pytorch-for-deep-learning/</guid>
+      <description>PyTorch Pytorch is an open source machine learning framework that accelerates the path from research prototyping to production deployment.&#xA;Regression Problem Example Boston Housing Dataset I have used the Boston housing dataset as it is one of the basic and beginner friendly dataset on Kaggle&#xA;Python Implementation The implementation creates a simple neural network using pytorch and compares with a baseline linear regression model.&#xA;Learnings Some key lessons learnt are to start with simple datasets and compare with baseline model to see the difference of using a non linear type model.</description>
     </item>
-    
     <item>
       <title>An Open Source Customer Data Integration Solution</title>
-      <link>https://www.deploydatascience.com/posts/data-integration-solution/</link>
+      <link>http://localhost:1313/posts/data-integration-solution/</link>
       <pubDate>Wed, 24 Mar 2021 11:39:56 +0000</pubDate>
-      
-      <guid>https://www.deploydatascience.com/posts/data-integration-solution/</guid>
-      <description>Customer Data Integration The first step even before you can begin to apply data science to a problem, consists of loading customer data into your system. Although, trivial when you are doing a one off batch load/read from files or databases. It can quickly become a non-trivial task when data updates often, leading to many data refreshes.
-To resolve this problem, data science systems use what are known as data loader/integration platforms.</description>
+      <guid>http://localhost:1313/posts/data-integration-solution/</guid>
+      <description>Customer Data Integration The first step even before you can begin to apply data science to a problem, consists of loading customer data into your system. Although, trivial when you are doing a one off batch load/read from files or databases. It can quickly become a non-trivial task when data updates often, leading to many data refreshes.&#xA;To resolve this problem, data science systems use what are known as data loader/integration platforms.</description>
     </item>
-    
     <item>
       <title>About</title>
-      <link>https://www.deploydatascience.com/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.deploydatascience.com/about/</guid>
-      <description>Hi there, Welcome! to Deploy Data Science, a blog for all things data science and ML ops.
-Created by Harshal, for ML and data science enthusiasts who would like to go beyond the prototype solutions and learn how to deploy data science from scratch into an end-to-end solutions.</description>
+      <guid>http://localhost:1313/about/</guid>
+      <description>Hi there, Welcome! to Deploy Data Science, a blog for all things data science and ML ops.&#xA;Created by Harshal, for ML and data science enthusiasts who would like to go beyond the prototype solutions and learn how to deploy data science from scratch into an end-to-end solutions.</description>
     </item>
-    
+    <item>
+      <title>Quiz</title>
+      <link>http://localhost:1313/quiz/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/quiz/</guid>
+      <description>Dump of quizes for new things I want to remember overtime&#xA;DDIA Quiz --- primary_color: &#39;#9375fd&#39; secondary_color: lightgray text_color: black shuffle_questions: true shuffleAnswers: true locale: en --- ## Advantages of using NoSQL in large scale distributed systems --- shuffle_answers: true --- why would you use NoSQL in large scale distributed systems over SQL databases? &gt; hint: - [X] NoSQL has better locality than SQL - [X] NoSQL is easier to shard &gt; This is complicated with a SQL database, because when using a join call, you may potentially have to access many partitions resulting in lots of network calls.</description>
+    </item>
     <item>
       <title>Resources</title>
-      <link>https://www.deploydatascience.com/resources/</link>
+      <link>http://localhost:1313/resources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.deploydatascience.com/resources/</guid>
-      <description>Awesome List of Data Science Resources Data Engineering
-Playlist of Awesome Data Engineering Videos Machine Learning
-API Flask
-https://github.com/exleym/Flask-Filter Filtering library directly on top of flask Similar libs: https://github.com/juliotrigo/sqlalchemy-filters https://github.com/gorilla-co/odata-query https://github.com/rochacbruno/dynaconf/ Configuration management for Flask in Production environments DevOps Nginx
-https://github.com/digitalocean/nginxconfig.io NGINX config generator on steroids. Documentation
-docusaurus https://docusaurus.io/ APIs
-Hasura - Hasura gives you instant GraphQL &amp;amp; REST APIs on new &amp;amp; existing data sources. Security
-honeybadger security: One of the best and clean company security policy document Personal Favourite Reading Material The 5 Levels of Readable Code (coding) </description>
+      <guid>http://localhost:1313/resources/</guid>
+      <description>Awesome List of Data Science Resources Data Engineering&#xA;Playlist of Awesome Data Engineering Videos Machine Learning&#xA;API Flask&#xA;https://github.com/exleym/Flask-Filter Filtering library directly on top of flask Similar libs: https://github.com/juliotrigo/sqlalchemy-filters https://github.com/gorilla-co/odata-query https://github.com/rochacbruno/dynaconf/ Configuration management for Flask in Production environments DevOps Nginx&#xA;https://github.com/digitalocean/nginxconfig.io NGINX config generator on steroids. Documentation&#xA;docusaurus https://docusaurus.io/ APIs&#xA;Hasura - Hasura gives you instant GraphQL &amp;amp; REST APIs on new &amp;amp; existing data sources. Security&#xA;honeybadger security: One of the best and clean company security policy document Personal Favourite Reading Material The 5 Levels of Readable Code (coding) How does non blocking io work under the hood A side-by-side comparison of Apache Spark and Apache Flink for common streaming use cases paxos vs quorum consistency consistent hashing </description>
     </item>
-    
     <item>
       <title>Tags</title>
-      <link>https://www.deploydatascience.com/tags/</link>
+      <link>http://localhost:1313/tags/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.deploydatascience.com/tags/</guid>
+      <guid>http://localhost:1313/tags/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

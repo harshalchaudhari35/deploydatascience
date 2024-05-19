@@ -2,21 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Integration on Deploy Data Science</title>
-    <link>https://www.deploydatascience.com/tags/integration/</link>
+    <link>http://localhost:1313/tags/integration/</link>
     <description>Recent content in Integration on Deploy Data Science</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Copyright notice</copyright>
-    <lastBuildDate>Wed, 24 Mar 2021 11:39:56 +0000</lastBuildDate><atom:link href="https://www.deploydatascience.com/tags/integration/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Mar 2021 11:39:56 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/integration/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>An Open Source Customer Data Integration Solution</title>
-      <link>https://www.deploydatascience.com/posts/data-integration-solution/</link>
+      <link>http://localhost:1313/posts/data-integration-solution/</link>
       <pubDate>Wed, 24 Mar 2021 11:39:56 +0000</pubDate>
-      
-      <guid>https://www.deploydatascience.com/posts/data-integration-solution/</guid>
-      <description>Customer Data Integration The first step even before you can begin to apply data science to a problem, consists of loading customer data into your system. Although, trivial when you are doing a one off batch load/read from files or databases. It can quickly become a non-trivial task when data updates often, leading to many data refreshes.
-To resolve this problem, data science systems use what are known as data loader/integration platforms.</description>
+      <guid>http://localhost:1313/posts/data-integration-solution/</guid>
+      <description>Customer Data Integration The first step even before you can begin to apply data science to a problem, consists of loading customer data into your system. Although, trivial when you are doing a one off batch load/read from files or databases. It can quickly become a non-trivial task when data updates often, leading to many data refreshes.&#xA;To resolve this problem, data science systems use what are known as data loader/integration platforms.</description>
     </item>
-    
   </channel>
 </rss>

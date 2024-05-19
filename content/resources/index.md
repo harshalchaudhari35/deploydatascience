@@ -46,3 +46,7 @@ tags: [resources, list]
 
 ## Personal Favourite Reading Material
  - [The 5 Levels of Readable Code](https://carlosschults.net/en/fivel-levels-readable-code/) (coding)
+ - [How does non blocking io work under the hood](https://medium.com/ing-blog/how-does-non-blocking-io-work-under-the-hood-6299d2953c74)
+ - [A side-by-side comparison of Apache Spark and Apache Flink for common streaming use cases](https://aws.amazon.com/blogs/big-data/a-side-by-side-comparison-of-apache-spark-and-apache-flink-for-common-streaming-use-cases/)
+ - [paxos vs quorum consistency](https://blog.the-pans.com/paxos-vs-quorum-based-consistency/)
+ - [consistent hashing](https://arpitbhayani.me/blogs/consistent-hashing/)
