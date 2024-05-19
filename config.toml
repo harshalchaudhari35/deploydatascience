@@ -68,6 +68,11 @@ name = "Tags"
 url = "/tags"
 weight = 5
 
+[[menu.main]]
+name = "Quiz"
+url = "/quiz"
+weight = 7
+
 [[params.social]]
 name = "Github"
 icon = "github"
