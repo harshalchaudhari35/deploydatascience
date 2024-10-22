@@ -2,7 +2,6 @@ baseURL = "https://www.deploydatascience.com/"
 languageCode = "en-us"
 title = "Deploy Data Science"
 theme = "hugo-ink"
-paginate = 5
 
 copyright = "© Copyright notice"
 
@@ -25,6 +24,13 @@ pygmentscodefencesguesssyntax = true
   [privacy.youtube]
     disable = false
     privacyEnhanced = true
+
+
+[pagination]
+  disableAliases = false
+  pagerSize = 5
+  path = 'page'
+
 
 [params]
 	subtitle = "All things Data Science and ML Ops"

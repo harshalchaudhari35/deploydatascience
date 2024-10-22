@@ -50,3 +50,4 @@ tags: [resources, list]
  - [A side-by-side comparison of Apache Spark and Apache Flink for common streaming use cases](https://aws.amazon.com/blogs/big-data/a-side-by-side-comparison-of-apache-spark-and-apache-flink-for-common-streaming-use-cases/)
  - [paxos vs quorum consistency](https://blog.the-pans.com/paxos-vs-quorum-based-consistency/)
  - [consistent hashing](https://arpitbhayani.me/blogs/consistent-hashing/)
+ - [on being a senior engineer](https://www.kitchensoap.com/2012/10/25/on-being-a-senior-engineer/)
