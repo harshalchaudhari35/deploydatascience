@@ -52,3 +52,12 @@ tags: [resources, list]
  - [consistent hashing](https://arpitbhayani.me/blogs/consistent-hashing/)
  - [on being a senior engineer](https://www.kitchensoap.com/2012/10/25/on-being-a-senior-engineer/)
  - [python-anti-patterns](https://docs.quantifiedcode.com/python-anti-patterns/index.html)
+
+
+## Paper Shelf
+
+- [Databricks Lakeguard: Supporting Fine-grained Access Control
+and Multi-user Capabilities for Apache Spark Workloads](https://www.databricks.com/sites/default/files/2025-06/databricks-lakeguard-supporting-fine-grained-access-control-multi-user-capabilities-apache-spark-workloads.pdf)
+- [Unity Catalog: Open and Universal Governance
+for the Lakehouse and Beyond](https://www.databricks.com/sites/default/files/2025-06/unity-catalog-open-universal-governance-lakehouse-beyond.pdf)
+- [The Five-Minute Rule for the Cloud: Caching in Analytics Systems](https://andrew.nerdnetworks.org/other/CIDR_2025_Cloud_5_Minute_Rule.pdf)
